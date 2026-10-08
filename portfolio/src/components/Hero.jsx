@@ -59,7 +59,7 @@ function Hero() {
         <div className="hero-image-container">
           <div className="hero-image">
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt="Professional profile"
             />
           </div>
