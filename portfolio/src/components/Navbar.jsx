@@ -20,15 +20,33 @@ function Navbar() {
         </a>
 
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+          <a href="#home" onClick={closeMenu}>
+            Home
+          </a>
 
-          <a href="#home" onClick={closeMenu}>Home</a>
-          <a href="#about" onClick={closeMenu}>About</a>
-          <a href="#skills" onClick={closeMenu}>Skills</a>
-          <a href="#projects" onClick={closeMenu}>Projects</a>
-          <a href="#experience" onClick={closeMenu}>Experience</a>
-          <a href="#education" onClick={closeMenu}>Education</a>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <a href="#about" onClick={closeMenu}>
+            About
+          </a>
 
+          <a href="#skills" onClick={closeMenu}>
+            Skills
+          </a>
+
+          <a href="#projects" onClick={closeMenu}>
+            Projects
+          </a>
+
+          <a href="#experience" onClick={closeMenu}>
+            Experience
+          </a>
+
+          <a href="#education" onClick={closeMenu}>
+            Education
+          </a>
+
+          <a href="#contact" onClick={closeMenu}>
+            Contact
+          </a>
         </div>
 
         <a
@@ -40,6 +58,7 @@ function Navbar() {
         </a>
 
         <button
+          type="button"
           className={`menu-toggle ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle navigation menu"
