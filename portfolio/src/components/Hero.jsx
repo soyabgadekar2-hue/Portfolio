@@ -1,3 +1,5 @@
+import Hero3D from "./Hero3D";
+
 function Hero() {
   return (
     <section id="home" className="hero">
@@ -10,7 +12,7 @@ function Hero() {
           </p>
 
           <h1>
-            Soyab Gadekar
+            Your Name
           </h1>
 
           <h2>
@@ -23,16 +25,26 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects" className="primary-button">
+
+            <a
+              href="#projects"
+              className="primary-button"
+            >
               View My Work
             </a>
 
-            <a href="/resume/resume.pdf" className="secondary-button" download>
+            <a
+              href="/resume/resume.pdf"
+              className="secondary-button"
+              download
+            >
               Download Resume
             </a>
+
           </div>
 
           <div className="hero-socials">
+
             <a
               href="https://github.com/"
               target="_blank"
@@ -52,17 +64,13 @@ function Hero() {
             <a href="#contact">
               Email
             </a>
+
           </div>
 
         </div>
 
         <div className="hero-image-container">
-          <div className="hero-image">
-            <img
-              src="/images/profile.png"
-              alt="Professional profile"
-            />
-          </div>
+          <Hero3D />
         </div>
 
       </div>
