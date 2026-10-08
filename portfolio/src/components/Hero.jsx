@@ -21,7 +21,7 @@ function Hero() {
 
           <p className="hero-description">
             I build modern, responsive and user-friendly web applications
-            using modern frontend and backend technologies.
+            using frontend and backend technologies.
           </p>
 
           <div className="hero-buttons">
