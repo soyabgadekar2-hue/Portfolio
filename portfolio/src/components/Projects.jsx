@@ -1,79 +1,49 @@
-import projects from "../data/projects";
 
-function Projects() {
-  return (
-    <section id="projects" className="projects">
-      <div className="section-container">
+const projects = [
+  {
+    number: "01",
+    title: "Full Stack Social Media App",
+    description:
+      "A full-stack social media application where users can create posts, interact with content, and manage their profiles through a responsive interface and REST API.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+    github: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
+    live: "#",
+  },
 
-        <div className="section-heading">
-          <p className="section-subtitle">What I've Built</p>
-          <h2>Featured Projects</h2>
-        </div>
+  {
+    number: "02",
+    title: "Personal Portfolio Website",
+    description:
+      "A modern developer portfolio showcasing technical skills, projects, education, and experience with responsive layouts and interactive elements.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "CSS3",
+      "Vite",
+    ],
+    github: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
+    live: "#",
+  },
 
-        <div className="projects-grid">
+  {
+    number: "03",
+    title: "REST API Backend",
+    description:
+      "A backend service providing structured REST API endpoints, database operations, input validation, error handling, and authentication.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Postman",
+    ],
+    github: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
+    live: "#",
+  },
+];
 
-          {projects.map((project) => (
-            <article
-              className="project-card"
-              key={project.number}
-            >
-
-              <div className="project-top">
-
-                <span className="project-number">
-                  {project.number}
-                </span>
-
-                <div className="project-links">
-
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub ↗
-                  </a>
-
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live Demo ↗
-                  </a>
-
-                </div>
-
-              </div>
-
-              <div className="project-content">
-
-                <h3>{project.title}</h3>
-
-                <p>
-                  {project.description}
-                </p>
-
-                <div className="project-technologies">
-
-                  {project.technologies.map((technology) => (
-                    <span key={technology}>
-                      {technology}
-                    </span>
-                  ))}
-
-                </div>
-
-              </div>
-
-            </article>
-          ))}
-
-        </div>
-
-      </div>
-    </section>
-  );
-}
-
-export default Projects;
+export default projects;
