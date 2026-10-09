@@ -1,21 +1,32 @@
+
 const projects = [
   {
     number: "01",
-    title: "Full Stack Web Application",
+    title: "Full Stack Social Media App",
     description:
-      "A modern full-stack web application with a responsive user interface, REST APIs, authentication and database integration.",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/",
+      "A full-stack social media application where users can create posts, interact with content, and manage their profiles through a responsive interface and REST API.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+    github: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
     live: "#",
   },
 
   {
     number: "02",
-    title: "Responsive Web Application",
+    title: "Personal Portfolio Website",
     description:
-      "A responsive web application focused on clean UI, smooth user experience and modern frontend development.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    github: "https://github.com/",
+      "A modern developer portfolio showcasing technical skills, projects, education, and experience with responsive layouts and interactive elements.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "CSS3",
+      "Vite",
+    ],
+    github: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
     live: "#",
   },
 
@@ -23,9 +34,14 @@ const projects = [
     number: "03",
     title: "REST API Backend",
     description:
-      "A backend application featuring REST APIs, database operations, authentication and secure server-side functionality.",
-    technologies: ["Node.js", "Express", "MongoDB", "REST API"],
-    github: "https://github.com/",
+      "A backend service providing structured REST API endpoints, database operations, input validation, error handling, and authentication.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Postman",
+    ],
+    github: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY",
     live: "#",
   },
 ];
