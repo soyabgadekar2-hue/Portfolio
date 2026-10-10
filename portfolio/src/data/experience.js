@@ -1,20 +1,31 @@
+
 const experience = [
   {
     year: "2026 - Present",
-    role: "Full Stack Developer",
-    company: "Your Company / Organization",
+    role: "Full Stack Development",
+    company: "Personal Projects & Skill Development",
     description:
-      "Developing responsive web applications, building REST APIs, working with databases, and implementing modern frontend and backend solutions.",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
+      "Building full-stack web applications, developing REST APIs, connecting databases, and creating responsive user interfaces while improving software development practices.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
   },
-
   {
     year: "2025 - 2026",
-    role: "Web Developer / Intern",
-    company: "Company Name",
+    role: "Web Development Projects",
+    company: "Independent Learning",
     description:
-      "Worked on web development projects, created responsive interfaces, integrated APIs, and improved application functionality.",
-    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+      "Practiced frontend development, built responsive web pages, integrated JavaScript functionality, and learned to use Git, GitHub, and Postman.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Git",
+    ],
   },
 ];
 
