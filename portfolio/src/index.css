@@ -1135,3 +1135,111 @@ section {
   }
 
 }
+
+
+/* ========================================
+   PORTFOLIO POLISH & ANIMATIONS
+======================================== */
+
+/* Smooth anchor navigation */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+/* Consistent transitions */
+a,
+button,
+.skill-card,
+.project-card,
+.detail-card,
+.education-card {
+  transition:
+    color 0.25s ease,
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* Accent hover effects */
+.nav-links a:hover,
+.footer-links a:hover,
+.footer-socials a:hover,
+.hero-socials a:hover {
+  color: var(--accent);
+}
+
+/* Primary button hover */
+.primary-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 229, 255, 0.18);
+}
+
+/* Secondary button hover */
+.secondary-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+
+/* Skill cards */
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+/* Project cards */
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+}
+
+.project-links a:hover {
+  color: var(--accent);
+}
+
+/* About cards */
+.detail-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+/* Education cards */
+.education-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+/* Form focus states */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0, 229, 255, 0.1);
+}
+
+/* Keyboard accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
