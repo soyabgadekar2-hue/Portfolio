@@ -1,28 +1,29 @@
+
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="footer">
       <div className="footer-container">
-
         <div className="footer-brand">
           <a href="#home" className="footer-logo">
             YourName<span>.</span>
           </a>
 
           <p>
-            Full Stack Developer building modern and
-            user-friendly web applications.
+            Full Stack Developer building modern,
+            responsive and user-friendly web applications.
           </p>
         </div>
 
-        <div className="footer-links">
+        <nav className="footer-links" aria-label="Footer navigation">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
-        </div>
+        </nav>
 
         <div className="footer-socials">
           <a
@@ -30,7 +31,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            GitHub ↗
           </a>
 
           <a
@@ -38,10 +39,9 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            LinkedIn ↗
           </a>
         </div>
-
       </div>
 
       <div className="footer-bottom">
